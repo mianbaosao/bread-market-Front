@@ -2,6 +2,10 @@ import {LuckyWheelPage} from "@/app/pages/lucky/lucky-wheel-page";
 import {LuckyGridPage} from "@/app/pages/lucky/lucky-grid-page";
 import {SlotMachine} from "@/app/pages/lucky/slot-machine-page";
 
+/**
+ * 主页面显示
+ * @constructor
+ */
 export default function Home() {
   return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -26,7 +30,7 @@ export default function Home() {
 
         {/* 底部文案 */}
         <footer className="text-gray-600 text-center my-8">
-          本项目为 面包营销平台@Bread
+          本项目为 面包营销平台 @Bread
         </footer>
       </div>
   );
